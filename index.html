@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg  bg-custom">
+  <a class="navbar-brand" href="#">Shoes Center</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#"><i class="bi bi-house-door-fill"></i>Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-bag-plus"></i>
+          Filter
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#paithanimodal" data-toggle="modal">Casual Shoes</a>
+          <a class="dropdown-item" href="#">Sport Shoes</a>
+     <!--      <div class="dropdown-divider"></div>
+ -->          <a class="dropdown-item" href="#">Party wear Shoes</a>
+              <a class="dropdown-item" href="#">Formale Shoes</a>
+              
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"href="#"><i class="bi bi-person-rolodex"></i>Contact Us</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <a href="#registermodal"data-toggle="modal">Register</a> &nbsp;&nbsp;
+      <a href="#loginmodal"data-toggle="modal"><i class="bi bi-box-arrow-in-left"></i>Login</a>
+       
+    </span>
+    
+  </div>
+</nav> <!-- end of navigation menu -->
+
+
+     <div class="jumbotron">
+	
+	<div id="textdata">
+  <h1 class="display-4">ART IN EVERY STEP</h1>
+  <h4 class="lead"> ₹500 Off on first order I Code: art004</h4>
+  <hr class="my-4">
+  <p>Our shop adopts forward-thinking practices in materials, processes, and customer interactions.</p>
+  <p class="lead">
+    <a class="btn btn-outinfo " href="#" role="button"><i class="bi bi-cart"></i>Shop Now</a>
+  </p>
+</div>
+<div id="imagedata">
+	<img src="imagess/1.png" class="img-fluid">
+	
+</div>
+</div>
+ 
+
+
+<!-- about us --> 
+<div class="back">
+<div class="container"id="about">
+  <h1 class="text-center my-3">About <span id="brandname"> Shoes </span> </h1>
+  <hr width="200px" class="bg-danger">
+  <div class="row">
+
+    <div class="col-md-6">
+      <img src="imagess/200.png" width="600" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <h4>A shoes is an item of footwear intended to protect and comfort the human foot. Though the human foot can adapt to varied terrains and climate conditions, it is vulnerable, and shoes provide protection. Form was originally tied to function, but over time, shoes also became fashion items. Some shoes are worn as safety equipment, such as steel-toe boots, which are required footwear at industrial worksites.</h4>
+      <p>Let us be a Part of your Fashion!</p>
+
+   </div>
+</div>
+</div>
+</div>
+<!-- end of about us -->
+
+
+
+<!-- slickslider -->
+<div class="container">
+  <h1 class="text-center my-3">New <span id="brandname"> Arrival </span> </h1>
+  <hr width="50px" class="bg-danger">
+  <div class="row slider">
+    <div class="col-md-1">
+      <img src="imagess/20.png">
+    </div>
+    <div class="col-md-1">
+      <img src="imagess/21.png">
+    </div>
+    <div class="col-md-1">
+      <img src="imagess/22.png">
+    </div>
+    <div class="col-md-2">
+      <img src="imagess/23.png">
+    </div>
+    <div class="col-md-6">
+      <img src="imagess/24.png">
+    </div>
+    <div class="col-md-2">
+      <img src="imagess/25.png">
+    </div>
+    <div class="col-md-2">
+      <img src="imagess/26.png">
+    </div>
+    <div class="col-md-2">
+      <img src="imagess/27.png">
+    </div>
+    <div class="col-md-2">
+      <img src="imagess/6.png">
+    </div>
+  </div>
+</div>
+
+
+<!-- end of slick slider -->
+
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3><i class="bi bi-browser-edge"></i></i>Shoes </h3>
+        <p>Our center adopts forward-thinking practices in materials, processes, and customer interactions</p>
+      </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-3">
+              <h3> Links</h3>
+              <ul>
+                <li>Home</li>
+                <li>Docs</li>
+                <li>Examples</li>
+                <li>Icons</li>
+                <li>Themes</li>
+                <li>Blog</li>
+                <li>Swag store</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3>Category</h3>
+              <ul>
+                
+                <li>Casual</li>
+                <li>Sport Shoes</li>
+                <li>Party wear shoes</li>
+                <li>Formal shoes </li>
+                
+            </ul>
+
+            </div>
+               <div class="col-md-3">
+              <h3>Contact us</h3>
+              <ul>
+                
+                <li><i class="bi bi-whatsapp"></i>Whatsapp</li>
+                <li><i class="bi bi-instagram"></i>Instagram</li>
+                <li><i class="bi bi-twitter"></i>Twiteer</li>
+                <li><i class="bi bi-facebook"></i>Facebook</li>
+            </ul>
+            </div>
+               <div class="col-md-3">
+              <h3>Help</h3>
+              <ul>
+                <li>Track order</li>
+                <li>Shipping</li>
+                <li>Returns</li>
+                <li>Exchange</li>
+                <li>Find a store</li>
+                <li>Maps</li>
+                <li>FAQs</li>
+              </ul>
+
+            </div>
+
+
+          </div>
+
+             </div>
+            </div>
+            <div class="row">
+            <div class="social_icons">
+              <div class="container text-center">
+              <i class="<i class=" bi-instagram"></i>
+              <i class="<i class=" bi-whatsapp"></i>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+     
+
+
+  <h1 class="text-center my-3" >Casual <span id="brandname" > shoes </span> </h1>
+ <div class="container">
+      <div class="row my-2">
+        <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/32.png" class="img-fluid">
+
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                 <button class="btn btn-warning">Rs-2599</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+          </div>
+        </div>
+     
+
+
+      
+       <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/33.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                 <button class="btn btn-warning">Rs-13900</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+               </div>
+             </div>
+           
+
+
+
+           <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/31.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-12600</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+               </div>
+             </div>
+           
+
+
+
+
+           <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/7.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-16900</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <!-- first -->
+          
+      
+
+
+  <h1 class="text-center my-3">Sport<span id="brandname"> Shoes </span> </h1>
+<div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/24.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-2299</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+          </div>
+        </div>
+
+     
+
+
+      
+       <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/25.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-1499</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+               </div>
+             </div>
+           
+
+
+
+           <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/26.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-999</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+               </div>
+           </div>
+         </div>
+             
+           
+
+
+
+
+<div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/27.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-1199</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+               </div>
+             </div>
+           </div>
+         </div>
+       
+    
+
+         <!-- second -->
+  <h1 class="text-center my-3">Party <span id="brandname"> shoes </span> </h1>
+         <div class="container">
+      <div class="row my-2">
+        <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/32.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-1239</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+          </div>
+        </div>
+     
+
+
+      
+       <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/52.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-1999</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+               </div>
+             </div>
+           
+
+
+
+           <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/51.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-2199</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+               </div>
+             </div>
+           
+
+
+
+
+           <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/54.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-4299</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <!-- third -->
+
+
+
+  <h1 class="text-center my-3">Formal <span id="brandname"> Shoes </span> </h1>
+         <div class="container">
+      <div class="row my-2">
+        <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/34.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-11600</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+          </div>
+        </div>
+     
+
+
+      
+       <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/33.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-26100</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+               </div>
+             </div>
+           
+
+
+
+           <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/32.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+
+             </div>
+                 <div class="card-footer">
+                  <button class="btn btn-warning">Rs-2799</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+               </div>
+             </div>
+           
+
+
+
+
+           <div class="col-md-3">
+          <div class="card">
+             <div class="card-body">
+             <img src="imagess/31.png" class="img-fluid">
+             <div id="product_icons">
+              <img src="imagess/200.svg">
+              <img src="imagess/300.svg">
+              <img src="imagess/400.svg">
+            </div>
+             </div>
+                 <div class="card-footer">
+Pr                  <button class="btn btn-warning">Rs-23999</button>
+                 <img src="imagess/300.svg" id="addtocart" class="img-fluid">
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <!-- fourth -->
+
+
+  
+ 
+
+
+
+
+
+
+<!-- end -->
+
+   
+
+   <!-- end of product section-->
+<!-- Register modal
+ -->
+
+
+
+<!-- end of register modal-->
+ <div class="modal" tabindex="-1" role="dialog" id="registermodal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Register</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+
+
+
+        
+          <form>
+            <div class="form-group">
+    <label for="exampleInputFullname">Full Name</label>
+    <input type="text" class="form-control" id="exampleInputFullname" placeholder="Enter Fullname">
+   
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputcontact">Contact</label>
+    <input type="tel" class="form-control" id="exampleInputcontact" placeholder=" Entercontact">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+      <p> Already Have an Account? <a href="#loginmodal"data-toggle="modal" data-dismiss="modal">Login</a></p>
+      </div>
+      <div class="modal-footer">
+       
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- login model -->
+<div class="modal" tabindex="-1" role="dialog" id="loginmodal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+    <label for="exampleInputFullname">Full Name</label>
+    <input type="text" class="form-control" id="exampleInputFullname" placeholder="Enter Fullname">
+   
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  
+  
+  <button type="submit" class="btn btn-primary">login</button>
+  <p> Don't Have an Account? <a href="#registermodal" data-toggle="modal" data-dismiss="modal">Sign Up</a></p>
+</form>
+
+      </div>
+      <div class="modal-footer">
+       
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- end of login modal -->
+<div class="footer">
+<footer>
+<div class="footercontainer">
+  <div class="socialicon">
+    <a href=""><i class="bi bi-facebook"></i></a>
+    <a href=""><i class="bi bi-instagram"></i></a>
+    <a href=""><i class="bi bi-twitter"></i></a>
+    <a href=""><i class="bi bi-google-play"></i></a>
+    <a href=""><i class="bi bi-youtube"></i></a>
+  </div>
+
+  <div class="footernav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Contact us</a></li>
+      <li><a href="#">Our team</a></li>
+    </ul>
+  </div>
+
+  <div class="footerbottom">
+    <p>Copyright &copy;2024; Designed by <span class="designer">Dipak Botke</span></p>
+    
+  </div>
+  </div>
+
+</footer>
+
+</div>
+
+
+
+
+
+<!-- slick slider
+ -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+
+  $('.slider').slick({
+  dots: true,
+  infinite: false,
+  speed: 2500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay:true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+  </script>
+<!-- end of slick slider -->
+</body>
+</html>

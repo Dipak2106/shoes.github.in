@@ -1,0 +1,164 @@
+
+.bg-custom{
+		background-color:#F0E7D0; }
+		.nav-link, .navbar-brand {
+		color:#403D34;
+	}
+	.navbar-text a{
+		color:#403D34;
+	}
+
+
+
+	
+
+
+	.jumbotron{
+		background-color:#F0E7D0;
+		padding:2rem 6rem;
+		display:flex;
+		flex-direction:row;
+		color:#403D34;
+
+
+	}
+	.jumbotron img{
+		width:1000px;
+	}
+
+
+	
+	
+	#brandname{
+		color:#403D34;
+	}
+    
+    #about p{
+    	text-align:justify;
+    	user-select:none;
+
+    }
+    
+
+
+#shoes ,#product_icons {
+    	width:200px;
+    	
+    }
+    #Shoes ,#product_icons img{
+    	
+    	background-color:white;
+    	margin:5px 0px;
+    	padding:5px;
+    }
+#product_icons{
+	position:absolute;
+	top:25px;
+	opacity:0px;
+	transition:opacity 0.3s;
+	cursor:pointer;
+}
+#Shoes #card:hover #product_icons{
+	opacity: 1;
+}
+#icon{
+	padding:20px;
+}
+#addtocart{
+	width:35px;
+	float:right;
+	background-color:white;
+	
+}
+.card-footer{
+	background-color:#F0E7D0;
+}
+
+.slider{
+	display:flex;
+	align-items:center;
+}
+.slider img{
+	width:250px;
+}
+.footer{
+	display:flex;
+	align-items:center;
+	margin-top:200px;
+height:250px;
+background-color:#403D34;
+color:#403D34;
+cursor:pointer;
+}
+.footer ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+
+}
+.social_icons{
+	display:flex;
+	justify-content:center;
+}
+
+.card{
+	width:180px;
+}
+.footer{
+	margin:0;
+	padding:0;
+	margin-top: 200px;
+	background-color: #F0E7D0;
+}
+.footercontainer{
+	width: 1150px;
+	padding: 70px 30px 20px;
+}
+
+.socialicon{
+	display: flex;
+	justify-content: center;
+}
+
+.socialicon a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: #F0E7D0;
+	margin: 10px;
+	border-radius: 50%;
+}
+.socialicon a i{
+	font-size: 2em;
+	color: #403D34;
+	opacity: 0.9;
+}
+
+
+.socialicon a:hover{
+	background-color: #F0E7D0;
+	transition: 0.5s;
+}
+.footernav ul{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+.footernav ul li a{
+	color:#403D34 ;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 1.3em;
+	opacity: 0.7;
+	transition: 0.5;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+	background-color:#F0E7D0;
+	padding: 20px;
+	text-align: center;
+}
+.footerbottom p{
+	color:#403D34 ;
+}
